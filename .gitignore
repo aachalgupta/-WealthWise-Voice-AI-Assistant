@@ -1,0 +1,6 @@
+__pycache__/
+vovenv/
+.env
+credentials.json
+notes.txt
+token.json
