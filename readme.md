@@ -17,17 +17,18 @@ An agentic voice AI assistant for a financial advisory firm with 5 nodes and 3 t
 ---
 
 ## Tech Stack
-Voice input STT/output TTS - Deepgram
-Voice infrastructure - LiveKit
-LLM - OpenAI
-Agent framework - LangGraph
-Vector database - Qdrant
-Calendar - Google Calendar API
+- Voice input STT/output TTS: Deepgram
+- Voice infrastructure: LiveKit
+- LLM: OpenAI
+- Agent framework: LangGraph
+- Vector database: Qdrant
+- Calendar: Google Calendar API
 
 ---
 
 ## Architecture
 
+```
 User (voice)
     ↓
 LiveKit (STT via Deepgram)
@@ -45,7 +46,7 @@ LangGraph Pipeline
 LiveKit (TTS via Deepgram)
     ↓
 User (voice)
-
+```
 ---
 
 ## How Appointments Work
